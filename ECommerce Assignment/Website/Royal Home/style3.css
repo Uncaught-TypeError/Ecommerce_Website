@@ -1,0 +1,227 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+.title{
+	height: 100px;
+	background-color: #000000;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+.logo_header{
+	 width: 180px;
+	 height: 100px;
+	 float: left;
+	 margin-left: 30px;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+    .navbar li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 147px;
+        text-decoration: none;
+    }
+
+/* Change the link color to #111 (black) on hover */
+.navbar li a:hover {
+  background-color: #111;
+}
+
+input[type="text"]{
+	float: right;
+	border: none;
+	border-radius: 30px;
+	padding: 10px;
+	margin: 30px;
+	width: 220px; 
+}
+.container{
+	max-width: 1000%;
+	position: relative;
+	margin: auto;
+}
+
+footer {
+	bottom: 0px;
+	height: 250px;
+	background-color: #000000;
+	color: white;
+	font-family: Verdana, sans-serif;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.table-footer{
+	height: 100px;
+	color: white;
+	float: right;
+	width: 80%;
+}
+
+.table-footer th {
+	font-size: 25px;
+	text-align: left;
+	text-shadow: 2px 2px grey;
+}
+
+.table-footer td {
+	padding: 10px;
+	text-align: left;
+}
+
+.logo_footer{
+	float: left;
+	padding-top: 15px;
+}
+
+.logo{
+	height: 200px;
+	width: 250px;
+	display: inline-block;
+}
+
+.sub-footer {
+	height: 200px;
+}
+
+td a {
+	text-decoration: none;
+	color: white;
+}
+
+td a:hover {
+	text-decoration: underline;
+}
+
+footer center {
+	text-shadow: 1px 1px grey;
+}
+.selection {
+	overflow: hidden;
+	text-align: center;
+	background: #34495e;
+	padding: 60px;
+}
+.selection h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+}
+.border{
+	display: block;
+	margin: auto;
+	width: 160px;
+	height: 3px;
+	background: #3498db;
+	margin-bottom: 40px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	margin: 0 30px;
+	display: inline-block;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;	
+}
+.ps a:hover > img {
+	filter: none;
+}
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+	font-family: Arial, sans-serif;
+}
+.section:target{
+	height: auto;
+}
+.name{
+	display: block;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+
+}
+
+.contact-info{
+	background-color: #f1f1f1;
+	min-height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 98%;
+	font-family: "montserrat", sans-serif;
+	padding: 0 20px;
+}
+.card{
+	background: #2f3542;
+	padding: 0 20px;
+	margin: 0 10px;
+	width: calc(13% - 20px);
+	height: 135px;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	cursor: pointer; 
+}
+.card-icon{
+	font-size: 28px;
+	background: #ff6348;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px !important;
+	border-radius: 50%;
+	transition: 0.3s linear;
+	
+}
+.card:hover .card-icon{
+	background: none;
+	color: #ff6348;
+	transform: scale(1.6);
+
+}
+.card p{
+	margin-top: 20px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	max-height: 0;
+	opacity: 0;
+	transition: 0.3s linear;  
+}
+.card:hover p{
+	max-height: 40px;
+	opacity: 1;
+}
