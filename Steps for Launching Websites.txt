@@ -1,0 +1,9 @@
+Steps
+
+Paste three files (app, demo and Royal Home) into Xampp, "C:\xampp\htdocs". (Location of your Xampp).
+
+Launch Xampp and start Mysql.
+
+Open Royal Home folder in Microsoft Visual Studio and view the files in browser.
+
+Copy folders inside mysql and paste them into C:\xampp\mysql\data
