@@ -17,7 +17,7 @@ An ecommerce website template using HTML, CSS and Javascript for frontend with p
 - Open Royal Home folder in Microsoft Visual Studio and view the files in browser.
 - Copy folders inside mysql and paste them into C:\xampp\mysql\data
 
-A fullstack website that can be used for a online furniture selling system.
+A fullstack website that can be used for a online furniture selling system with multiple functions and features for both admin and user. 
 
 ![_D__My%20Folder_My%20Work_Career%20Related_Ecommerce_ECommerce%20Assignment_Website_Royal%20Home_blog html](https://user-images.githubusercontent.com/95492327/225130605-cf905417-c18d-4453-aaab-d89416077080.png)
 ![_D__My%20Folder_My%20Work_Career%20Related_Ecommerce_ECommerce%20Assignment_Website_Royal%20Home_Design html](https://user-images.githubusercontent.com/95492327/225130616-913c0ca7-fcd4-45f9-bb22-25d77f67d51c.png)
