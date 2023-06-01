@@ -1,5 +1,5 @@
 # Ecommerce_Website
-Ecommerce website developed using Html,Css,Javascript and Php (Responsive)
+Ecommerce website developed using Html,Css,Javascript and Php (Responsive, Junior-Level)
 
 An ecommerce website template using HTML, CSS and Javascript for frontend with pure Php for backend together with MySQL for database connection.
 
